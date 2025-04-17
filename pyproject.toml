@@ -8,3 +8,8 @@ dependencies = [
     "prometheus-client>=0.21.1",
     "redis[hiredis]>=5.2.1",
 ]
+
+[dependency-groups]
+dev = [
+    "isort>=6.0.1",
+]
