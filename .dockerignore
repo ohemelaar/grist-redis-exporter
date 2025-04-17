@@ -1,0 +1,6 @@
+__pycache__
+.venv
+Dockerfile
+README.md
+.git
+mise.toml
