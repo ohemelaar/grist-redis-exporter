@@ -13,7 +13,7 @@ COPY --from=builder --chown=app:app /app/.venv /app/.venv
 ENV PATH="/app/.venv/bin:$PATH"
 ENV VIRTUAL_ENV="/app/.venv/"
 
-COPY . .
+COPY main.py .
 
 ENTRYPOINT [ "python" ]
 CMD ["/app/main.py"]

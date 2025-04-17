@@ -4,3 +4,6 @@ Dockerfile
 README.md
 .git
 mise.toml
+.dockerignore
+.gitignore
+build-push.sh
